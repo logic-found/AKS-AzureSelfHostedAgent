@@ -18,7 +18,7 @@ This repository contains scripts and configurations for deploying Azure Self-hos
 - **Azure Container Registry (ACR):** Used to host Docker images containing the application and its dependencies.
 
 ## Steps Followed
-<img width="850" alt="image" src="https://github.com/user-attachments/assets/6e5c5d41-cd30-46af-bd5b-4e2c98a1ee51">
+<img width="850" alt="image" src="https://github.com/user-attachments/assets/c4eaf3de-f17e-468f-aa04-1f97310bf270">
 
 
 1. **Deploy Azure Container Registry(ACR):** Utilized Terraform scripts to provision the infrastructure component.
@@ -27,7 +27,7 @@ This repository contains scripts and configurations for deploying Azure Self-hos
 
 3. **Provision AKS Cluster:** Terraform scripts to provision an AKS cluster and attach it to ACR for docker image access. Utilized Managed Identity to attach AKS with ACR.
 
-4.  **Confgure AKS:** Deployed the Self-Hosted Agent on AKS using Kubernetes Manifest and the previously built Docker image. Created Deployment Object to deploy the pods and Secrets to securely store crucial information required for setting up the Self-Hosted Agent.
+4.  **Configure AKS:** Deployed the Self-Hosted Agent on AKS using Kubernetes Manifest and the previously built Docker image. Created Deployment Object to deploy the pods and Secrets to securely store crucial information required for setting up the Self-Hosted Agent.
 
 5. **Execute Workloads:** With all the above steps completed, the agents are ready to execute your workloads.
 
