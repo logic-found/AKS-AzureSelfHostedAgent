@@ -18,6 +18,8 @@ This repository contains scripts and configurations for deploying Azure Self-hos
 - **Azure Container Registry (ACR):** Used to host Docker images containing the application and its dependencies.
 
 ## Steps Followed
+<img width="850" alt="image" src="https://github.com/user-attachments/assets/6e5c5d41-cd30-46af-bd5b-4e2c98a1ee51">
+
 
 1. **Deploy Azure Container Registry(ACR):** Utilized Terraform scripts to provision the infrastructure component.
 
